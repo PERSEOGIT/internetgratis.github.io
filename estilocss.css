@@ -1,0 +1,40 @@
+
+body{
+    background:black;
+    color:whitesmoke;
+    text-align: center;
+}
+
+
+img {
+
+	border-radius: 20px;
+	background: black;
+
+
+
+}
+
+
+
+
+
+
+
+h1 {
+	border-radius: 10px;
+    background: red;
+    text-align: center;
+	}
+h1 span {
+	animation: maquina 5s infinite alternate steps(10)
+}
+@keyframes maquina{
+	from {
+		width: 100%
+	}
+	to {
+	width: 0%
+
+	}
+}
